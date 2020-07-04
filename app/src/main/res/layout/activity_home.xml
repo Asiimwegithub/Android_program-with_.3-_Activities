@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrange"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my home Activity"
+        android:layout_margin="80dp"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="130dp"
+        android:textColor="@color/colorWhite"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hit the following button to navigate to a new Activity."
+        android:layout_margin="80dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:text="Go to another Activity" />
+
+</LinearLayout>
